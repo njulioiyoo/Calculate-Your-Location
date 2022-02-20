@@ -56,7 +56,7 @@ public function getDistance($addressFrom, $addressTo, $unit = ''){
 ## Usage
 ```bash
 $query = @unserialize (file_get_contents('http://ip-api.com/php/'));
-$getDistance = $this->getDistance('Lampung', $query['city'], 'K');
+$getDistance = $this->getDistance('Jakarta', $query['city'], 'K');
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
